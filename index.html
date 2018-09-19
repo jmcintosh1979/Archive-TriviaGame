@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Golf-tastic Trivia Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+
+  <body>
+
+    <div class="welcome">
+      <h1>Golf-tastic Trivia Game!!</h1>
+      <p>Press <strong>"Start Game"</strong> to test your knowledge about golf.</p> <p>Some questions will challenge you and others are just fun!</p>
+      <button type="button" class="start-game">Start Game</button>
+    </div>
+
+    <div class="trivia-game">
+      <div class="game-timer">
+        <h2>Time Remaining:</h2>
+      </div>
+
+      <ol class="questions">
+        <li class="q1">How many holes are played in 1-round of golf?</li>
+          <ol>
+            <li><input type="radio" name="q1a" value="a">18</li>
+            <li><input type="radio" name="q1b" value="b">24</li>
+            <li><input type="radio" name="q1c" value="c">32</li>
+            <li><input type="radio" name="q1d" value="d">9</li>
+          </ol>
+          <hr>
+        <li class="q2">What is the flag referred too when playing golf?</li>
+          <ol>
+            <li><input type="radio" name="q2a" value="a"> Pin</li>
+            <li><input type="radio" name="q2b" value="b"> Flag</li>
+            <li><input type="radio" name="q2c" value="c"> Stick</li>
+            <li><input type="radio" name="q2d" value="d"> Pole</li>
+          </ol>
+          <hr>
+        <li class="q3">What do you call it, if a golfer get's their ball in the hole in 3-strokes on a Par 5?</li>
+          <ol>
+            <li><input type="radio" name="q3a" value="a">Condor</li>
+            <li><input type="radio" name="q3b" value="b">Birdie</li>
+            <li><input type="radio" name="q3c" value="c">Par</li>
+            <li><input type="radio" name="q3d" value="d">Hole-in-One</li>
+          </ol>
+          <hr>
+        <li class="q4">Who was the first professional golfer?</li>
+          <ol>
+            <li><input type="radio" name="q4a" value="a">Tiger Woods</li>
+            <li><input type="radio" name="q4b" value="b">Jack Nickalaus</li>
+            <li><input type="radio" name="q4c" value="c">Walter Hagen</li>
+            <li><input type="radio" name="q4d" value="d">Ben Franklin</li>
+          </ol>
+          <hr>
+        <li class="q5">What do you call a golfer with a handicap of zero?</li>
+          <ol>
+            <li><input type="radio" name="q5a" value="a">Scratch Golfer</li>
+            <li><input type="radio" name="q5b" value="b">Great Golfer</li>
+            <li><input type="radio" name="q5c" value="c">Bad Golfer</li>
+            <li><input type="radio" name="q5d" value="d">Nothing, as that would be rude</li>
+          </ol>
+          <hr>
+        <li class="q6">What is the longest putt on record in a professional tournament?</li>
+          <ol>
+            <li><input type="radio" name="q6a" value="a">140 feet and 2 1/4 inches</li>
+            <li><input type="radio" name="q6b" value="b">15 feet and 1 1/2 inces</li>
+            <li><input type="radio" name="q6c" value="c">15 inches</li>
+            <li><input type="radio" name="q6d" value="d">900 inches</li>
+          </ol>
+          <hr>
+        <li class="q7">In a golf tournament, what is the person called that carries the golf clubs?</li>
+          <ol>
+            <li><input type="radio" name="q7a" value="a">Golf Cart</li>
+            <li><input type="radio" name="q7b" value="b">Caddy</li>
+            <li><input type="radio" name="q7c" value="c">Bag Carrier</li>
+            <li><input type="radio" name="q7d" value="d">Dummy</li>
+          </ol>
+          <hr>
+        <li class="q8">Up until the 1920's the three wood golf club was referred to as _______.</li>
+          <ol>
+            <li><input type="radio" name="q8a" value="a">"the spoon"</li>
+            <li><input type="radio" name="q8b" value="b">"the brassie"</li>
+            <li><input type="radio" name="q8c" value="c">"the baffy"</li>
+            <li><input type="radio" name="q8d" value="d">"the clerk"</li>
+          </ol>
+          <hr>
+        <li class="q9">How many dimples are on a regulation golf ball?</li>
+          <ol>
+            <li><input type="radio" name="q9a" value="a">336</li>
+            <li><input type="radio" name="q9b" value="b">224</li>
+            <li><input type="radio" name="q9c" value="c">573</li>
+            <li><input type="radio" name="q9d" value="d">Too many to count</li>
+          </ol>
+          <hr>
+        <li class="q10">If you ride around in a golf cart for 18-holes, how many calories will you burn?</li>
+          <ol>
+            <li><input type="radio" name="q10a" value="a">2,000</li>
+            <li><input type="radio" name="q10b" value="b">10</li>
+            <li><input type="radio" name="q10c" value="c">1,300</li>
+            <li><input type="radio" name="q10d" value="d">1,800</li>
+          </ol>
+          <hr>
+      </ol>
+
+      <button type="button" class="submit">Submit</button>
+    </div>
+
+    <div class="score">
+      <h3 class="correct">8</h3>
+      <h3 class="incorrect">1</h3>
+      <h3 class="not-answered">1</h3>
+      <hr>
+      <h3 class="percent-correct">80%</h3>
+      <hr>
+      <button type="button" class="re-play">Re-Play!</button>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+  </body>
+</html>
