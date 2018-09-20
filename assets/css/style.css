@@ -28,7 +28,8 @@ strong {
 
 /* ALL BUTTONS ON EACH PAGE OF GAME */
 button {
-  margin-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-size: 2em;
   background-color: white;
   color: green;

@@ -10,7 +10,6 @@ $(document).ready(function() {
     $(".trivia-game").show();
   })
 
-
   $(".submit").on("click", function() {
     // console.log("submit button has been clicked");
     $(".welcome").hide();
