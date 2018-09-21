@@ -72,3 +72,10 @@ li {
 input {
   margin: .4rem;
 }
+
+/* THIRD PAGE OF GAME STYLE */
+
+.score {
+  width: 100%;
+  text-align: center;
+}
